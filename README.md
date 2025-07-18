@@ -6,3 +6,7 @@ Two data sets were made available - Palmoria Group Emp Data and Palmoria Group B
 I imported the two files into the Power BI environment and tranformed them accordingly.
 In the course of transforming the Bonus Rules, I had to unpivot the columns except the the first one representing the names of staff. This enabled me to match the various ratings to their respective values and applied to every staff.
 On the other hand, 
+
+
+
+## MY ANALYSIS
