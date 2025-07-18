@@ -6,6 +6,17 @@ Two data sets were made available - Palmoria Group Emp Data and Palmoria Group B
 I imported the two files into the Power BI environment and tranformed them accordingly.
 In the course of transforming the Bonus Rules, I had to unpivot the columns except the the first one representing the names of staff. This enabled me to match the various ratings to their respective values and applied to every staff. 
 
+The process:
+Chose file - bonus mapping.
+Select column 1 and Unpivot other columns 
+Close and apply.
+
+I chose the other file - Palmoria Group emp data 
+Replaced blanks under Gender with Generic Gender 
+Under Department, I replaced NULL with null so as to make it removable then remove empty.
+Under salary, remove empty
+Merge queries to bring in the bonus mapping values to and change the header to rating value 
+Since some were not rated for bonus, I replaced null with 0 under the bonus rating value and then changed the entire rating values to percentage.
 
 
 ## MY ANALYSIS
