@@ -4,20 +4,25 @@ This is my first Data Analysis Project to test my understanding of training rece
 ## Tools Appllied: I made use of Microsoft Power Business Intelligence in order to be able to transform available data and then analyse.
 Two data sets were made available - Palmoria Group Emp Data and Palmoria Group Bonus Rules.
 I imported the two files into the Power BI environment and tranformed them accordingly.
-In the course of transforming the Bonus Rules, I had to unpivot the columns except the the first one representing the names of staff. This enabled me to match the various ratings to their respective values and applied to every staff.
-On the other hand, 
+In the course of transforming the Bonus Rules, I had to unpivot the columns except the the first one representing the names of staff. This enabled me to match the various ratings to their respective values and applied to every staff. 
 
 
 
 ## MY ANALYSIS
 1. Gender distribution in the organization
-   -  Distilled to regions 
+  - Distilled to Departments 
 
 <img width="1193" height="658" alt="1 Gender Distribution Based on Departments" src="https://github.com/user-attachments/assets/a1ab250b-58ce-4d1c-a8f0-3fe7526c2b84" />
+From the distribution above, Femal were more in four Departments while Male were more in eight Departments
+The major Departments that should be of focus are:
+  - Legal
+  - Reseach & Development
+  - Business Development
 
-   - Distilled to departments
+   - Distilled to Regions
 
 <img width="1194" height="675" alt="2 Gender Distribution Based on Regions" src="https://github.com/user-attachments/assets/320085db-3426-4714-ac67-d8fd5fa6ed14" />
+Looking at the distribution based on Region, There is no major concern but attention can be paid more to Kaduna and Abuja in that order.
 
 2. Ratings Based on Gender
 
